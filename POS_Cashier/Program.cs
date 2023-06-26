@@ -14,6 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 #region AddServices
 builder.Services.AddCors();
+builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DataContext>();
 builder.Services.AddScoped<IGenericRepository<Customer>, GenericRepository<Customer>>();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();

@@ -21,7 +21,7 @@ namespace DAL.Data
 		{
 			if (!options.IsConfigured)
 			{
-				options.UseSqlServer("Data Source=sql5053.site4now.net;Initial Catalog=db_a74425_premiumpos;Persist Security Info=True;User ID=db_a74425_premiumpos_admin;Password=PPpp1212#;");
+				options.UseSqlServer("Data Source=.;Initial Catalog=GoMobiShop;TrustServerCertificate=True;Integrated Security=True");
 			}
 		}
 
