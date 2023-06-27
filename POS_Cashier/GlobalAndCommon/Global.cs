@@ -6,7 +6,7 @@ namespace Pos_API.GlobalAndCommon
 {
     public static class Global
     {
-        public static readonly string ImagePreURL = "https://retail.premium-pos.com";
+        public static readonly string ImagePreURL = "";
 
 		public static void InsertImagePreURL<T>(T item)
 		{
